@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style: none;
+    outline: 0;
+}
+html,body{
+    height: 100%;
+}
+.hovered:hover button{
+    display:block;
+}
+.LazyLoad {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.is-visible {
+    opacity: 1;
+}
