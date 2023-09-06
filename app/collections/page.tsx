@@ -51,10 +51,9 @@ const Collections: React.FC = () => {
           <Link 
             href='/' 
             onClick={clearSelectedBrands} 
-            className='flex items-center gap-1 ml-2'
+            className='flex items-center ml-2'
           >
             <AiOutlineArrowLeft/>
-            <p>All Brands</p>
           </Link>
           <Download/>
         </header>
