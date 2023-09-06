@@ -16,7 +16,7 @@ const Search : React.FC = () => {
           type="text" 
           onChange={e => dispatch(setSearch(e.target.value.trim().toLowerCase()))} 
           placeholder='Search Brands' 
-          className='h-full w-full text-base px-5 pl-16'
+          className='h-full w-full text-base px-5 pl-16 bg-inherit'
         />
     </div>
   )
